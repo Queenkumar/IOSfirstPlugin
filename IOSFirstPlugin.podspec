@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IOSFirstPlugin'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IOSFirstPlugin.'
+  s.summary          = 'IOSFirstPlugin is to save user device token'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,21 +17,31 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+   s.description      = <<-DESC
+    "IOSFirstPlugin is to save user device token and also save user login , logout ,app open and app logout event in whole ios swift application"
+                           DESC
 
-  s.homepage         = 'https://github.com/QueenzendWebsolutions/IOSFirstPlugin'
+
+  s.homepage         = 'https://github.com/Queenkumar/IOSfirstPlugin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'QueenzendWebsolutions' => '“queenkumar007@gmail.com”' }
-  s.source           = { :git => 'https://github.com/QueenzendWebsolutions/IOSFirstPlugin.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Queenkumar/IOSfirstPlugin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  #s.ios.deployment_target = '8.0'
+
+  #s.source_files = 'IOSFirstPlugin/Classes/**/*'
+  
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'IOSFirstPlugin/Classes/**/*'
-  
+   s.source_files = 'Classes/**/*.swift'
+   
+   s.swift_version = '5.0'
+   
+   s.platforms = {
+       "ios": "13.0"
+   }
   # s.resource_bundles = {
   #   'IOSFirstPlugin' => ['IOSFirstPlugin/Assets/*.png']
   # }

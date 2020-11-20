@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0027235CC31F9CFD77A024B6 /* Pods-IOSFirstPlugin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFirstPlugin_Tests.release.xcconfig"; path = "Target Support Files/Pods-IOSFirstPlugin_Tests/Pods-IOSFirstPlugin_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		03E82770EA1EAA19412A6B88 /* IOSFirstPlugin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IOSFirstPlugin.podspec; path = ../IOSFirstPlugin.podspec; sourceTree = "<group>"; };
-		104F897B39CC2CFF5D968E1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		03E82770EA1EAA19412A6B88 /* IOSFirstPlugin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IOSFirstPlugin.podspec; path = ../IOSFirstPlugin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		104F897B39CC2CFF5D968E1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2B77E9FEA10B20EA6874494D /* Pods_IOSFirstPlugin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSFirstPlugin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* IOSFirstPlugin_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFirstPlugin_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		635A7E3F1AEFAD9B3492B354 /* Pods-IOSFirstPlugin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFirstPlugin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IOSFirstPlugin_Tests/Pods-IOSFirstPlugin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6DD5650E61215099C2472DA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6DD5650E61215099C2472DA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B178866E01C1A4ED37C7FF79 /* Pods-IOSFirstPlugin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFirstPlugin_Example.release.xcconfig"; path = "Target Support Files/Pods-IOSFirstPlugin_Example/Pods-IOSFirstPlugin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4D8E61C77AEC8585225F86E /* Pods-IOSFirstPlugin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFirstPlugin_Example.debug.xcconfig"; path = "Target Support Files/Pods-IOSFirstPlugin_Example/Pods-IOSFirstPlugin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EFFBC1E1D32FF3A6388F4276 /* Pods_IOSFirstPlugin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSFirstPlugin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				635A7E3F1AEFAD9B3492B354 /* Pods-IOSFirstPlugin_Tests.debug.xcconfig */,
 				0027235CC31F9CFD77A024B6 /* Pods-IOSFirstPlugin_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - IOSFirstPlugin (0.1.0)
+
+DEPENDENCIES:
+  - IOSFirstPlugin (from `../`)
+
+EXTERNAL SOURCES:
+  IOSFirstPlugin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IOSFirstPlugin: bac1aef5903d9c3cd303d5c1b9ced5cdecdda38a
+
+PODFILE CHECKSUM: f19de902410f86ebf93e2f04be8e117a9b8bd818
+
+COCOAPODS: 1.8.4
