@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
 
   #s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'IOSFirstPlugin/Classes/**/*'
+  s.source_files = 'IOSFirstPlugin/Classes/**/*'
   
    s.ios.deployment_target = '11.0'
 
-   s.source_files = 'Classes/**/*.swift'
+   #s.source_files = 'Classes/**/*.swift'
    
    s.swift_version = '5.0'
    

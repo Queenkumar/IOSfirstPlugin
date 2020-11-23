@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		02A94D8DAA4C9DB362104C2F637F92DB /* IOSFirstPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E62F317CCF5B2D53CF6FC3EDE516A6 /* IOSFirstPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07372D2CF55422F26137C6B10E5B351C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA05AE51BEACA7CD1D9D8F1DE7F809D /* Foundation.framework */; };
+		0845FC80256BA1A6006C5578 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0845FC7F256BA1A6006C5578 /* Logger.swift */; };
 		0889C5AE256B942300DBDC7A /* CheckLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889C5AD256B942300DBDC7A /* CheckLogin.swift */; };
 		0889C5B0256B943100DBDC7A /* doLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889C5AF256B943100DBDC7A /* doLogin.swift */; };
 		0889C5B4256B961500DBDC7A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889C5B3256B961500DBDC7A /* Logger.swift */; };
@@ -95,6 +96,7 @@
 /* Begin PBXFileReference section */
 		0490ED5988528ED946A9AFF95523FF40 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		0768BFFDF1B9DB04388C4F2B9F9D0098 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		0845FC7F256BA1A6006C5578 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		0889C5AD256B942300DBDC7A /* CheckLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLogin.swift; sourceTree = "<group>"; };
 		0889C5AF256B943100DBDC7A /* doLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doLogin.swift; sourceTree = "<group>"; };
 		0889C5B3256B961500DBDC7A /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 			children = (
 				0889C5AC256B941000DBDC7A /* Classes */,
 				32AEE8E20E2189D2088DEE872C62E8B8 /* IOSFirstPlugin */,
+				0845FC7F256BA1A6006C5578 /* Logger.swift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -674,6 +677,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0845FC80256BA1A6006C5578 /* Logger.swift in Sources */,
 				0889C5B0256B943100DBDC7A /* doLogin.swift in Sources */,
 				0889C5AE256B942300DBDC7A /* CheckLogin.swift in Sources */,
 				4CAEF586760CC14B988C433C4711E848 /* IOSFirstPlugin-dummy.m in Sources */,
