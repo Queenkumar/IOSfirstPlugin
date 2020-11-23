@@ -1,11 +1,12 @@
 use_frameworks!
 
 target 'IOSFirstPlugin_Example' do
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
   pod 'IOSFirstPlugin', :path => '../'
 
   target 'IOSFirstPlugin_Tests' do
     inherit! :search_paths
-
     
   end
 end

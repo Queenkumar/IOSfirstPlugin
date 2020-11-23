@@ -1,9 +1,9 @@
 {
   "name": "IOSFirstPlugin",
   "version": "0.1.0",
-  "summary": "A short description of IOSFirstPlugin.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/QueenzendWebsolutions/IOSFirstPlugin",
+  "summary": "IOSFirstPlugin is to save user device token",
+  "description": "\"IOSFirstPlugin is to save user device token and also save user login , logout ,app open and app logout event in whole ios swift application\"",
+  "homepage": "https://github.com/Queenkumar/IOSfirstPlugin",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,21 @@
     "QueenzendWebsolutions": "“queenkumar007@gmail.com”"
   },
   "source": {
-    "git": "https://github.com/QueenzendWebsolutions/IOSFirstPlugin.git",
+    "git": "https://github.com/Queenkumar/IOSfirstPlugin.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "IOSFirstPlugin/Classes/**/*"
+  "source_files": "Classes/**/*.swift",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.7"
+    ],
+    "SwiftyJSON": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

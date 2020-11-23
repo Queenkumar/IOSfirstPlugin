@@ -1,13 +1,9 @@
 PODS:
   - Alamofire (4.9.1)
-  - IOSFirstPlugin (0.1.0):
-    - Alamofire (~> 4.7)
-    - SwiftyJSON
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Alamofire
-  - IOSFirstPlugin (from `../`)
   - SwiftyJSON
 
 SPEC REPOS:
@@ -15,15 +11,10 @@ SPEC REPOS:
     - Alamofire
     - SwiftyJSON
 
-EXTERNAL SOURCES:
-  IOSFirstPlugin:
-    :path: "../"
-
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  IOSFirstPlugin: 067bf6c3df9cf9ee5da8c100c18b5ace45b86eaa
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: dd464a45090ad0a76237394906d9e80dd8c66cec
+PODFILE CHECKSUM: afa1af2cc91924d3371b480861151b53407a2d89
 
 COCOAPODS: 1.8.4

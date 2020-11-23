@@ -7,11 +7,15 @@
 //
 
 import UIKit
+//import IOSFirstPlugin
 
 class ViewController: UIViewController {
+//     let log = doLogin()
 
     override func viewDidLoad() {
+       
         super.viewDidLoad()
+//        log.printLogin()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
