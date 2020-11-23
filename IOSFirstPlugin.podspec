@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOSFirstPlugin'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'IOSFirstPlugin is to save user device token'
 
 # This description is used to generate tags and improve search results.
@@ -33,14 +33,14 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'IOSFirstPlugin/Classes/**/*'
   
-   s.ios.deployment_target = '8.0'
+   s.ios.deployment_target = '11.0'
 
    s.source_files = 'Classes/**/*.swift'
    
    s.swift_version = '5.0'
    
    s.platforms = {
-       "ios": "8.0"
+       "ios": "11.0"
    }
   # s.resource_bundles = {
   #   'IOSFirstPlugin' => ['IOSFirstPlugin/Assets/*.png']
