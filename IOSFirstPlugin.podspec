@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOSFirstPlugin'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'IOSFirstPlugin is to save user device token'
 
 # This description is used to generate tags and improve search results.
