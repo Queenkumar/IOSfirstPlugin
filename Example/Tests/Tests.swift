@@ -1,6 +1,4 @@
 import XCTest
-import IOSFirstPlugin
-
 class Tests: XCTestCase {
     
     override func setUp() {

@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - IOSFirstPlugin (0.1.0):
+  - IOSFirstPlugin (1.0.2):
     - Alamofire (~> 4.7)
     - SwiftyJSON
   - SwiftyJSON (5.0.0)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  IOSFirstPlugin: 067bf6c3df9cf9ee5da8c100c18b5ace45b86eaa
+  IOSFirstPlugin: 584203b5cddd05ca8d338fd539d177f1fca7ade0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
 PODFILE CHECKSUM: dd464a45090ad0a76237394906d9e80dd8c66cec
