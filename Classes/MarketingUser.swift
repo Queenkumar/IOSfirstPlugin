@@ -1,5 +1,5 @@
 //
-//  Logger.swift
+//  MarketingUser.swift
 //  IOSFirstPlugin
 //
 //  Created by Queenzend Web Solution on 23/11/20.
@@ -11,7 +11,7 @@ import SwiftyJSON
 import UIKit
 import SwiftUI
 
-public class Logger {
+public class MarketingUser {
 
 //define init function:
     public init(){}
