@@ -1,5 +1,5 @@
 //
-//  Logger.swift
+//  MarketingUser.swift
 //  IOSFirstPlugin
 //
 //  Created by Queenzend Web Solution on 23/11/20.
@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public class Logger {
+public class MarketingUser {
     
     public init(){}
     
