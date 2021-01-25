@@ -1,5 +1,5 @@
 //
-//  Logger.swift
+//  MarketingUser.swift
 //  IOSFirstPlugin
 //
 //  Created by Queenzend Web Solution on 23/11/20.
@@ -11,7 +11,7 @@ import SwiftyJSON
 import UIKit
 import SwiftUI
 
-public class Logger {
+public class MarketingUser {
 
 //define init function:
     public init(){}
@@ -64,6 +64,44 @@ public class Logger {
                 
               print("Login failed")
                  
+             }
+          }
+    }
+    
+    //define save userTrackeventData function:
+    public func userTrackeventData(user_id:String,company_id:String,event_name:String,event_data:JSON){
+          print("Call UserLoginData function");
+           let url = "https://k2key.in/marketing_plateform_pankaj/Webservice/saveEvent";
+           print("Get params");
+           print(user_id);
+           print(company_id);
+           print(event_name);
+           print(event_data);
+    
+           let params = ["user_id": user_id,
+                     "company_id": company_id,
+                     "event_name": event_name,
+                     "source": source,
+                     "event_data": event_data]
+           print(params);
+           Alamofire.request(URL.init(string: url)!, method: .post, parameters: params, encoding: JSONEncoding .default,headers: [:])
+           .responseData { response in
+            
+              guard let data = response.data else { return }
+              print(response.result)
+              print(String(data: data, encoding: .utf8)!)
+              let json = JSON(data)
+              print(json)
+              let res_data = json["res_data"]
+              print(res_data)
+              let res_code = json["res_code"]
+              print(res_code)
+              if(res_code == 1){
+               print("Event data save Successfully")
+                    return
+             }
+             else{
+              print("Failed to save event data")
              }
           }
     }
