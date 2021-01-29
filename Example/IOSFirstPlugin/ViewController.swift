@@ -11,8 +11,8 @@ import IOSFirstPlugin
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
-        let log = Logger()
-        log.printLog()
+      //  let log = Logger()
+       // log.printLog()
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

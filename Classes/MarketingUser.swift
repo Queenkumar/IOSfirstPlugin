@@ -69,7 +69,7 @@ public class MarketingUser {
     }
     
     //define save userTrackeventData function:
-    public func userTrackeventData(user_id:String,company_id:String,event_name:String,event_data:JSON){
+  /*  public func userTrackeventData(user_id:String,company_id:String,event_name:String,source:String,event_data:JSON){
           print("Call UserLoginData function");
            let url = "https://k2key.in/marketing_plateform_pankaj/Webservice/saveEvent";
            print("Get params");
@@ -104,7 +104,7 @@ public class MarketingUser {
               print("Failed to save event data")
              }
           }
-    }
+    }*/
     
   
 //define save UserRegistration data function:
