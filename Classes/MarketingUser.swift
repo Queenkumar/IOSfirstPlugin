@@ -69,46 +69,40 @@ public class MarketingUser {
     }
     
     //define save userTrackeventData function:
-  /*  public func userTrackeventData(user_id:String,company_id:String,event_name:String,source:String,event_data:JSON){
-          print("Call UserLoginData function");
-           let url = "https://k2key.in/marketing_plateform_pankaj/Webservice/saveEvent";
-           print("Get params");
-           print(user_id);
-           print(company_id);
-           print(event_name);
-           print(event_data);
-    
-           let params = ["user_id": user_id,
-                     "company_id": company_id,
-                     "event_name": event_name,
-                     "source": source,
-                     "event_data": event_data]
-           print(params);
-           Alamofire.request(URL.init(string: url)!, method: .post, parameters: params, encoding: JSONEncoding .default,headers: [:])
-           .responseData { response in
-            
-              guard let data = response.data else { return }
-              print(response.result)
-              print(String(data: data, encoding: .utf8)!)
-              let json = JSON(data)
-              print(json)
-              let res_data = json["res_data"]
-              print(res_data)
-              let res_code = json["res_code"]
-              print(res_code)
-              if(res_code == 1){
-               print("Event data save Successfully")
-                    return
-             }
-             else{
-              print("Failed to save event data")
-             }
+    public func userTrackeventData(user_id:Any,company_id:Any,event_name:Any,params1: Any)
+           {
+                print(params1)
+                print("******SaveEvent call*******")
+                        
+                let paramsData1 = params1
+                        
+                print("Call EventData function");
+                        
+                                    let url = "https://k2key.in/marketing_plateform_pankaj/Webservice/saveEvent";
+                                      
+                                    let params = ["user_id": user_id,
+                                                 "company_id": company_id,
+                                                 "event_name": event_name,
+                                                 "event_data": paramsData1] as [String : Any]
+                                       print(params);
+                                       Alamofire.request(URL.init(string: url)!, method: .post, parameters: params, encoding: JSONEncoding .default,headers: [:])
+                                       .responseData { response in
+                                          guard let data = response.data else { return }
+                                          print(response.result)
+                                          print(String(data: data, encoding: .utf8)!)
+                                          let json = JSON(data)
+                                          let res_code = json["res_code"]
+                                          if(res_code == 1){
+                                           print("Event data save successfully")
+                                                return
+                                         }
+                                         else{
+                                          print("Event data failed to save")
+                                         }
+                              }
           }
-    }*/
-    
-  
 //define save UserRegistration data function:
-public func UserRegistrationData(company_token: String,user_name: String,password: String,phone_number: String,email: String,dob: String,country: String,city: String,address: String,gender: String, jobType: String,source: String,latitude: String,longitude: String,device_token:String){
+    public func UserRegistrationData(company_token: String,user_name: String,password: String,phone_number: String,email: String,dob: String,country: String,city: String,address: String,gender: String, jobType: String,source: String,latitude: String,longitude: String,device_token:String,age:String,married_status:String,blood_group:String){
       print("Call UserLoginData function");
   let url = "https://k2key.in/marketing_plateform_pankaj/Webservice/appUserRegistrationNew";
        print("Get params for user register");
@@ -118,7 +112,7 @@ public func UserRegistrationData(company_token: String,user_name: String,passwor
        print(source);
        print(device_token);
        
-    let params = ["company_token": company_token,"user_name": user_name,"password": password,"phone_number": phone_number,"email": email,"dob": dob,"country": country,"city": city,"address": address,"gender": gender,"jobType": jobType,"source":source,"latitude": latitude,"longitude": longitude,"device_token": device_token]
+        let params = ["company_token": company_token,"user_name": user_name,"password": password,"phone_number": phone_number,"email": email,"dob": dob,"country": country,"city": city,"address": address,"gender": gender,"jobType": jobType,"source":source,"latitude": latitude,"longitude": longitude,"device_token": device_token,"age":age,"married_status":married_status,"blood_group":blood_group]
        print(params);
        Alamofire.request(URL.init(string: url)!, method: .post, parameters: params, encoding: JSONEncoding .default,headers: [:])
        .responseData { response in
